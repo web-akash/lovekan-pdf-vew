@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 876px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0;
+}
+h2 {
+  margin: 0;
+}
+mark {
+}
+@font-face {
+  font-family: HiraKakuStd;
+  src: url(../font/HiraKakuStd-W8.otf);
+}
+@font-face {
+  font-family: HiraginoKaku;
+  src: url(../font/Hiragino\ Kaku\ Gothic\ Std\ W8.otf);
+}
+@font-face {
+  font-family: HiraKakuPro;
+  src: url(../font//HiraKakuPro-W6.otf);
+}
+@font-face {
+  font-family: futura;
+  src: url(../font/futura\ medium\ bt.ttf);
+}
+html body {
+  background-image: url(../images/Asset\ 5.svg);
+}
+.button {
+  background-color: #00b900;
+  border: 2px solid black;
+  width: 430px;
+  padding: 34px 0;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-box-shadow: 7px 7px 0px 2px rgba(179, 179, 179, 1);
+  -moz-box-shadow: 7px 7px 0px 2px rgba(179, 179, 179, 1);
+  box-shadow: 7px 7px 0px 2px rgba(179, 179, 179, 1);
+}
+.button span {
+  font-size: 24pt;
+  color: #ffffff;
+  font-family: HirakakuPro;
+  font-weight: 600;
+}
+.titel {
+  background-color: black;
+  height: 200pt;
+  text-align: center;
+  color: #ffff;
+  font-family: HiraKakuPro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titel h2 {
+  font-size: 46pt;
+  line-height: 80pt;
+  display: inline-block;
+}
+.titel p {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 16pt;
+}
+.top-heading {
+  position: absolute;
+  top: -37px;
+  width: 245px;
+  left: 35px;
+  text-align: center;
+  background-color: #00fdff;
+
+  font-family: HiraKakuPro;
+  padding: 17px 0;
+  border: 3px solid black;
+  box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
+  -moz-box-shadow: 5px 5px 0px 0px rgba(179, 179, 179, 0.75);
+}
+.top-heading h2 {
+  font-size: 18pt;
+}
+/* common part end */
+
+/* ===================
+    Banner part start
+===================== */
+#banner {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+}
+#banner picture {
+  position: absolute;
+  bottom: 176px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 78%;
+}
+#banner picture img{
+  width: 100%;
+}
+#banner h2 {
+  padding-top: 249px;
+  margin: 0 auto;
+  font-family: HiraginoKaku;
+  font-size: 22pt;
+  line-height: 34pt;
+  color: #ffff;
+  text-align: center;
+  font-weight: 400;
+}
+#banner .m-model {
+  display: none;
+}
+#banner .pc-model {
+  display: block;
+}
+#banner h1 {
+  padding-top: 21px;
+  padding-bottom: 530px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 auto;
+  font-family: HiraKakuStd;
+  margin: 0 auto;
+  width: 784px;
+  font-size: 44pt;
+  line-height: 56pt;
+  color: #ffff;
+}
+/* ===================
+    Banner part end
+===================== */
+
+/* ===================
+    love part start
+===================== */
+#love picture {
+  margin-top: 80pt;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45pt;
+}
+#love h3 {
+  font-size: 17pt;
+  line-height: 27pt;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  margin: 0 auto;
+  font-family: 'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,Osaka,'ＭＳ Ｐゴシック',MS PGothic,sans-serif;
+  margin-bottom: 15pt;
+}
+#love .h-box {
+  margin-bottom: 43px;
+}
+#love h2 {
+  font-size: 46px;
+  line-height: 55pt;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: HiraKakuStd;
+}
+#love .round-box {
+  display: flex;
+  justify-content: space-between;
+}
+#love .item {
+  background-color: #00fdff;
+  height: 274px;
+  width: 274px;
+  border: 1px solid black;
+  border-radius: 50%;
+  font-size: 24pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 6px 0px 5px 0px rgba(0, 0, 0, 0.57);
+}
+#love .item p {
+  font-family: HiraKakuStd;
+  text-align: center;
+}
+#love .item .span {
+  font-size: 14pt;
+}
+#love .button {
+  margin-top: 80pt;
+  margin-bottom: 80pt;
+}
+
+/* ===================
+    love part end
+===================== */
+
+/* ===================
+    About part start
+===================== */
+
+#about .youtube {
+  margin-top: 80pt;
+  background-color: #b3b3b3;
+  height: 530px;
+}
+#about .details {
+  margin: 50pt 0;
+}
+
+#about .details p {
+  font-size: 16pt;
+  line-height: 35pt;
+  font-family: 'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,Osaka,'ＭＳ Ｐゴシック',MS PGothic,sans-serif;
+  display: inline;
+  font-weight: 700;
+}
+.all-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#about .item {
+  position: relative;
+  border: 4px solid black;
+  margin-bottom: 20px;
+}
+#about .item picture img {
+  width: 100%;
+}
+#about .item::after {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  content: "";
+  border: 4px solid black;
+  width: 102%;
+  height: 102%;
+}
+#about .item .h {
+  font-family: futura;
+  width: 80px;
+  height: 82px;
+  background-color: #00fdff;
+  text-align: center;
+  line-height: 82px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#about .item .h span {
+  font-size: 30pt;
+}
+#about .item picture img {
+  display: block;
+}
+#about .item .sub-box {
+  width: 359px;
+  background-color: #e7458a;
+  padding: 24px 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20pt;
+  font-family: HiraKakuPro;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#about .button {
+  margin-top: 80pt;
+  margin-bottom: 80pt;
+}
+/* ===================
+    About part end
+===================== */
+/* ===================
+    Entery part start
+===================== */
+
+#entry .entry-list {
+  font-family: HiraKakuPro;
+  background-color: #ffffff;
+  font-size: 16px;
+  background-color: #ffffff;
+  line-height: 20pt;
+  border: 2px solid black;
+  margin-top: 80pt;
+  padding-top: 68px;
+  position: relative;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+}
+#entry .entry-listes {
+  font-family: HiraKakuPro;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 20pt;
+  border: 2px solid black;
+  margin-top: 80pt;
+  padding-top: 68px;
+  position: relative;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+}
+#entry .entry-list .unm {
+  margin-top: 54px !important;
+}
+
+#entry .entry-list li {
+  font-family: HiraKakuPro;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  position: relative;
+}
+#entry .entry-listes li {
+  font-family: HiraKakuPro;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  position: relative;
+}
+#entry .item-all {
+  display: flex;
+  justify-content: space-between;
+}
+#entry .entry-list li::after {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  border: 1px solid #b3b3b399;
+  content: "";
+  color: #000000;
+  width: 93%;
+}
+#entry .entry-listes li::after {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  border: 1px solid #b3b3b399;
+  content: "";
+  color: #000000;
+  width: 93%;
+}
+#entry .entry-list li span {
+  margin-right: 23px;
+}
+#entry .entry-listes li span {
+  margin-right: 23px;
+}
+#entry .entry-list li:nth-child(odd) mark {
+  color: #000000;
+}
+#entry .entry-listes li:nth-child(odd) span {
+  color: #e7458a;
+}
+#entry .entry-list li {
+  color: #000000;
+}
+#entry .entry-listes li:nth-child(odd) {
+  color: #e7458a;
+}
+
+#entry .entry-list li span {
+  background-color: ;
+}
+#entry .item-all .item {
+  background-color: #ffffff;
+  text-align: center;
+  border: 2pt solid black;
+  margin-top: 54px;
+  position: relative;
+  width: 277px;
+  padding-bottom: 32px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  box-shadow: 0px 0px 5px 0px rgba(179, 179, 179, 0.7);
+}
+#entry .uniq1 {
+  padding-bottom: 19px !important;
+}
+#entry .uniq2 {
+  padding-bottom: 25px !important;
+}
+#entry .item-all .item picture {
+  margin-top: 27px;
+  margin-bottom: 38px;
+  display: block;
+}
+#entry .item-all .item .item-titel {
+  font-size: 37pt;
+  font-family: futura;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 28px;
+}
+#entry .item-all .item .item-titel mark {
+  color: #e7458a;
+}
+#entry .item-all .item h3 {
+  font-size: 18.6pt;
+  font-weight: 400;
+  font-family: HiraKakuPro;
+  margin-bottom: 12px;
+}
+#entry .item-all .item p {
+  font-size: 14px;
+  font-family: HiraKakuPro;
+  line-height: 20pt;
+  text-align: left;
+  margin-left: 30px;
+}
+#entry .item-all .item .top-heading {
+  top: -45px;
+  left: 12px;
+}
+#entry .button {
+  margin-top: 80pt;
+  margin-bottom: 80pt;
+}
+#entry .mobile {
+  display: none;
+}
+
+/* ===================
+    Enter part end
+===================== */
+
+/* ===================
+    container part end
+===================== */
+#cautions .titel {
+  margin-bottom: 109px;
+}
+
+#cautions .entry-list {
+  background-color: #ffffff;
+  font-family: 'ヒラギノ角ゴ Pro W3',Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,Osaka,'ＭＳ Ｐゴシック',MS PGothic,sans-serif;
+  font-size: 16pt;
+  line-height: 20pt;
+  border: 2px solid black;
+  margin-bottom: 54px;
+  position: relative;
+  padding-right: 68px;
+  padding-top: 60px;
+  padding-bottom: 38px;
+  padding-left: 38px;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+  box-shadow: 0px 0px 13px 0px rgba(179, 179, 179, 0.7);
+}
+
+#cautions .entry-list li {
+  font-family: HiraKakuPro;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  position: relative;
+}
+#cautions .entry-list p {
+  font-size: 15pt;
+  line-height: 40pt;
+  font-weight: 700;
+}
+#cautions .entry-list .top-heading {
+  background-color: #e7458a;
+  color: #ffff;
+}
+#cautions .entry-list .top-heading mark {
+  color: #ffff;
+}
+#cautions .top-heading .uniq {
+  width: 400px;
+}
+#cautions .button {
+  margin-top: 40pt;
+  margin-bottom: 80pt;
+}
+
+/* ===================
+    container part end
+===================== */
+
+/* ===================
+  information part start
+===================== */
+#information picture {
+  text-align: center;
+  margin: 0 auto;
+}
+#information picture img {
+  margin-bottom: 27px;
+}
+#information .box-info {
+  text-align: center;
+  background-color: #ffff;
+  border: 2px solid black;
+  padding-top: 54px;
+  padding-bottom: 80px;
+}
+#information .box-info {
+  margin: 80px 0;
+}
+#information .box-info p {
+  font-size: 16pt;
+  font-family: HiraKakuPro;
+  line-height: 30pt;
+  font-weight: 400;
+}
+#information .uniq {
+  margin-bottom: 42px;
+}
+/* ===================
+  information part end
+===================== */
+/* ===================
+  footer part start
+===================== */
+footer p {
+  font-size: 15px;
+  line-height: 33pt;
+  font-family: HiraKakuPro;
+}
+/* ===================
+  footer part end
+===================== */

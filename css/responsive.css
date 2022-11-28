@@ -1,0 +1,1111 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  #banner {
+    background-image: url("../images/mobiel-banner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+  }
+  #banner h2 {
+    font-size: 18pt;
+    width: auto;
+    line-height: 28pt;
+
+    padding-top: 134px;
+  }
+  #banner .uniq {
+    font-size: 30px;
+    width: auto;
+    line-height: 39pt;
+    padding: 0 25px;
+    padding-bottom: 292px;
+  }
+  #banner .pc-model {
+    display: none;
+  }
+  #banner .m-model {
+    display: block;
+  }
+  #banner picture {
+    bottom: 56px;
+  }
+  /* love part start  */
+  #love h3 {
+    font-size: 16pt;
+    line-height: 25pt;
+    margin-bottom: 25pt;
+    /* love part end  */
+  }
+  #love h2 {
+    font-size: 20pt;
+    line-height: 30pt;
+    text-align: center;
+    width: auto;
+  }
+  #love .item {
+    height: 160px;
+    width: 160px;
+    font-size: 16px;
+  }
+  #love .center {
+    display: flex;
+    justify-content: center;
+  }
+  #love picture {
+    margin-top: 30pt;
+    margin-bottom: 25pt;
+  }
+  #love .h-box {
+    margin-bottom: 30pt;
+  }
+  #love .item p {
+    font-size: 16pt;
+  }
+  #love .item .span {
+    font-size: 12pt;
+  }
+  #love .button {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+  }
+  .button {
+    width: auto;
+  }
+  .button span {
+    font-size: 18pt;
+  }
+  .titel h2 {
+    font-size: 20pt;
+    line-height: 26pt;
+  }
+  .titel p {
+    margin-top: 5px;
+    font-size: 14pt;
+  }
+  .titel {
+    padding: 28px 0;
+    height: 100pt;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #about {
+    margin-top: 30pt;
+  }
+  #about .details p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #about .details {
+    margin: 25px 0;
+  }
+  #about .item picture img {
+    width: 100%;
+  }
+  #about .item {
+    border: 2px solid black;
+  }
+  #about .item {
+    overflow: visible;
+  }
+  #about .item::after {
+    border: 2px solid black;
+  }
+  #about .item .sub-box {
+    width: auto;
+    background-color: #e7458a;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #about .item .h span {
+    font-size: 16px;
+  }
+  #about .item .h {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  #about .button {
+    margin-top: 20pt;
+    margin-bottom: 30pt;
+  }
+  #about .youtube {
+    margin-top: 30pt;
+    background-color: #b3b3b3;
+    height: 400px;
+  }
+  #about .details {
+    margin: 20pt 0;
+  }
+  #about .item .h span {
+    font-size: 16pt;
+  }
+  #about .item .sub-box {
+    color: #fff;
+  }
+  #about .button {
+    margin-top: 20pt;
+    margin-bottom: 30pt;
+  }
+  #entry .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    margin-top: 50px;
+    padding: 0 25pt;
+    padding-top: 54px;
+    padding-bottom: 30pt;
+    margin-bottom: 0;
+    line-height: 22pt;
+  }
+  #entry .entry-list li {
+    margin-bottom: 30px;
+  }
+  #entry .entry-list li::after {
+    bottom: -15px;
+  }
+  #entry .item-all .uniq {
+    margin-top: 50px !important;
+  }
+  #entry .entry-list li::after {
+    width: 100%;
+  }
+  #entry .entry-list li {
+    display: flex;
+  }
+  #entry .entry-list li span {
+    margin-right: 15px;
+    height: 32px;
+  }
+  #entry .entry-list li:nth-child(odd) span {
+    display: block;
+  }
+  #entry {
+    padding: 0;
+  }
+  #entry .button {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+    display: none;
+  }
+  #entry .mobile {
+    display: block;
+  }
+
+  #entry .entry-list li:nth-child(odd) mark {
+    display: block;
+  }
+  .top-heading h2 {
+    font-size: 16pt;
+    margin: 0;
+  }
+  #entry .entry-list li {
+    margin-left: 0;
+  }
+  #entry ul {
+    padding: 0;
+  }
+  #entry .item-all .item {
+    margin: 0 auto;
+    width: auto;
+    margin-top: 15pt;
+  }
+  #entry .item .uniq {
+    margin-top: 30pt;
+  }
+  #entry .item-all .item .top-heading {
+    top: -35px;
+    left: 12px;
+  }
+  #entry .item-all .item .item-titel {
+    font-size: 24pt;
+  }
+  #entry .item-all .item h3 {
+    font-size: 18pt;
+  }
+  #entry .item-all .item p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 0;
+    padding: 0 47px;
+    margin-bottom: 0;
+  }
+  #cautions .top-heading h2 {
+    font-size: 14pt;
+    margin: 0;
+  }
+  #cautions .titel {
+    margin-bottom: 50pt;
+  }
+  #cautions .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    padding: 0 20pt;
+    padding-top: 40pt;
+    padding-bottom: 20pt;
+  }
+  #cautions ul {
+    padding: 0;
+  }
+  #cautions .entry-list p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #cautions .entry-list p {
+    margin-bottom: 0;
+  }
+  #cautions .button {
+    margin-top: 26pt;
+    margin-bottom: 30pt;
+  }
+  #cautions .entry-list {
+    margin-bottom: 0;
+    margin-top: 35pt;
+  }
+  #cautions .titel {
+    margin-bottom: 25pt;
+  }
+  #information .box-info {
+    margin: 30pt 0;
+  }
+  #information .box-info {
+    padding-top: 35pt;
+    padding-bottom: 35pt;
+  }
+  #information .box-info p {
+    font-size: 14pt;
+    line-height: 20pt;
+    padding: 0 20pt;
+  }
+  #information .uniq {
+    margin-bottom: 30pt;
+    margin-top: 17px;
+  }
+  footer p {
+    font-size: 14pt;
+    line-height: 20pt;
+    margin: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #banner {
+    background-image: url("../images/mobiel-banner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+  }
+  #banner h2 {
+    font-size: 18pt;
+    width: auto;
+    line-height: 28pt;
+
+    padding-top: 134px;
+  }
+  #banner .uniq {
+    font-size: 30px;
+    width: auto;
+    line-height: 39pt;
+    padding: 0 25px;
+    padding-bottom: 292px;
+  }
+  #banner .pc-model {
+    display: none;
+  }
+  #banner .m-model {
+    display: block;
+  }
+  #banner picture {
+    bottom: 56px;
+  }
+  /* love part start  */
+  #love h3 {
+    font-size: 16pt;
+    line-height: 25pt;
+    margin-bottom: 25pt;
+    /* love part end  */
+  }
+  #love h2 {
+    font-size: 20pt;
+    line-height: 30pt;
+    text-align: center;
+    width: auto;
+  }
+  #love .item {
+    height: 160px;
+    width: 160px;
+    font-size: 16px;
+  }
+  #love .center {
+    display: flex;
+    justify-content: center;
+  }
+  #love picture {
+    margin-top: 30pt;
+    margin-bottom: 25pt;
+  }
+  #love .h-box {
+    margin-bottom: 30pt;
+  }
+  #love .item p {
+    font-size: 16pt;
+  }
+  #love .item .span {
+    font-size: 12pt;
+  }
+  #love .button {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+  }
+  .button {
+    width: auto;
+  }
+  .button span {
+    font-size: 18pt;
+  }
+  .titel h2 {
+    font-size: 20pt;
+    line-height: 26pt;
+  }
+  .titel p {
+    margin-top: 5px;
+    font-size: 14pt;
+  }
+  .titel {
+    padding: 28px 0;
+    height: 100pt;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #about {
+    margin-top: 30pt;
+  }
+  #about .details p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #about .details {
+    margin: 25px 0;
+  }
+  #about .item picture img {
+    width: 100%;
+  }
+  #about .item {
+    border: 2px solid black;
+  }
+  #about .item {
+    overflow: visible;
+  }
+  #about .item::after {
+    border: 2px solid black;
+  }
+  #about .item .sub-box {
+    width: auto;
+    background-color: #e7458a;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #about .item .h span {
+    font-size: 16px;
+  }
+  #about .item .h {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  #about .button {
+    margin-top: 20pt;
+    margin-bottom: 30pt;
+  }
+  #about .youtube {
+    margin-top: 30pt;
+    background-color: #b3b3b3;
+    height: 400px;
+  }
+  #about .details {
+    margin: 20pt 0;
+  }
+  #about .item .h span {
+    font-size: 16pt;
+  }
+  #about .item .sub-box {
+    color: #fff;
+  }
+  #about .button {
+    margin-top: 20pt;
+    margin-bottom: 30pt;
+  }
+  #entry .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    margin-top: 50px;
+    padding: 0 25pt;
+    padding-top: 54px;
+    padding-bottom: 30pt;
+    margin-bottom: 0;
+    line-height: 22pt;
+  }
+  #entry .entry-list li {
+    margin-bottom: 30px;
+  }
+  #entry .entry-list li::after {
+    bottom: -15px;
+  }
+  #entry .item-all .uniq {
+    margin-top: 50px !important;
+  }
+  #entry .entry-list li::after {
+    width: 100%;
+  }
+  #entry .entry-list li {
+    display: flex;
+  }
+  #entry .entry-list li span {
+    margin-right: 15px;
+    height: 32px;
+  }
+  #entry .entry-list li:nth-child(odd) span {
+    display: block;
+  }
+  #entry {
+    padding: 0;
+  }
+  #entry .button {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+    display: none;
+  }
+  #entry .mobile {
+    display: block;
+  }
+
+  #entry .entry-list li:nth-child(odd) mark {
+    display: block;
+  }
+  .top-heading h2 {
+    font-size: 16pt;
+    margin: 0;
+  }
+  #entry .entry-list li {
+    margin-left: 0;
+  }
+  #entry ul {
+    padding: 0;
+  }
+  #entry .item-all .item {
+    margin: 0 auto;
+    width: auto;
+    margin-top: 15pt;
+  }
+  #entry .item .uniq {
+    margin-top: 30pt;
+  }
+  #entry .item-all .item .top-heading {
+    top: -35px;
+    left: 12px;
+  }
+  #entry .item-all .item .item-titel {
+    font-size: 24pt;
+  }
+  #entry .item-all .item h3 {
+    font-size: 18pt;
+  }
+  #entry .item-all .item p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 0;
+    padding: 0 47px;
+    margin-bottom: 0;
+  }
+  #cautions .top-heading h2 {
+    font-size: 14pt;
+    margin: 0;
+  }
+  #cautions .titel {
+    margin-bottom: 50pt;
+  }
+  #cautions .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    padding: 0 20pt;
+    padding-top: 40pt;
+    padding-bottom: 20pt;
+  }
+  #cautions ul {
+    padding: 0;
+  }
+  #cautions .entry-list p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #cautions .entry-list p {
+    margin-bottom: 0;
+  }
+  #cautions .button {
+    margin-top: 26pt;
+    margin-bottom: 30pt;
+  }
+  #cautions .entry-list {
+    margin-bottom: 0;
+    margin-top: 35pt;
+  }
+  #cautions .titel {
+    margin-bottom: 25pt;
+  }
+  #information .box-info {
+    margin: 30pt 0;
+  }
+  #information .box-info {
+    padding-top: 35pt;
+    padding-bottom: 35pt;
+  }
+  #information .box-info p {
+    font-size: 14pt;
+    line-height: 20pt;
+    padding: 0 20pt;
+  }
+  #information .uniq {
+    margin-bottom: 30pt;
+    margin-top: 17px;
+  }
+  footer p {
+    font-size: 14pt;
+    line-height: 20pt;
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #banner {
+    background-image: url("../images/mobiel-banner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+  }
+  #banner h2 {
+    font-size: 18pt;
+    width: auto;
+    line-height: 28pt;
+
+    padding-top: 134px;
+  }
+  #banner .uniq {
+    font-size: 30px;
+    width: auto;
+    line-height: 39pt;
+    padding: 0 25px;
+    padding-bottom: 292px;
+  }
+  #banner .pc-model {
+    display: none;
+  }
+  #banner .m-model {
+    display: block;
+  }
+  #banner picture {
+    bottom: 56px;
+  }
+  /* love part start  */
+  #love h3 {
+    font-size: 16pt;
+    line-height: 25pt;
+    margin-bottom: 25pt;
+    /* love part end  */
+  }
+  #love h2 {
+    font-size: 20pt;
+    line-height: 30pt;
+    text-align: center;
+    width: auto;
+  }
+  #love .item {
+    height: 160px;
+    width: 160px;
+    font-size: 16px;
+  }
+  #love .center {
+    display: flex;
+    justify-content: center;
+  }
+  #love picture {
+    margin-top: 30pt;
+    margin-bottom: 25pt;
+  }
+  #love .h-box {
+    margin-bottom: 30pt;
+  }
+  #love .item p {
+    font-size: 16pt;
+  }
+  #love .item .span {
+    font-size: 12pt;
+  }
+  #love .button {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+  }
+  .button {
+    width: auto;
+  }
+  .button span {
+    font-size: 18pt;
+  }
+  .titel h2 {
+    font-size: 20pt;
+    line-height: 26pt;
+  }
+  .titel p {
+    margin-top: 5px;
+    font-size: 14pt;
+  }
+  .titel {
+    padding: 28px 0;
+    height: 100pt;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #about {
+    margin-top: 30pt;
+  }
+  #about .details p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #about .details {
+    margin: 25px 0;
+  }
+  #about .item picture img {
+    width: 100%;
+  }
+  #about .item {
+    border: 2px solid black;
+  }
+  #about .item {
+    overflow: visible;
+  }
+  #about .item::after {
+    border: 2px solid black;
+  }
+  #about .item .sub-box {
+    width: auto;
+    background-color: #e7458a;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #about .item .h span {
+    font-size: 16px;
+  }
+  #about .item .h {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  #about .button {
+    margin-top: 20pt;
+    margin-bottom: 30pt;
+  }
+  #about .youtube {
+    margin-top: 30pt;
+    background-color: #b3b3b3;
+    height: 400px;
+  }
+  #about .details {
+    margin: 20pt 0;
+  }
+  #about .item .h span {
+    font-size: 16pt;
+  }
+  #about .item .sub-box {
+    color: #fff;
+  }
+  #about .button {
+    margin-top: 20pt;
+    margin-bottom: 30pt;
+  }
+  #entry .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    margin-top: 50px;
+    padding: 0 25pt;
+    padding-top: 54px;
+    padding-bottom: 30pt;
+    margin-bottom: 0;
+    line-height: 22pt;
+  }
+  #entry .entry-list li {
+    margin-bottom: 30px;
+  }
+  #entry .entry-list li::after {
+    bottom: -15px;
+  }
+  #entry .item-all .uniq {
+    margin-top: 50px !important;
+  }
+  #entry .entry-list li::after {
+    width: 100%;
+  }
+  #entry .entry-list li {
+    display: flex;
+  }
+  #entry .entry-list li span {
+    margin-right: 15px;
+    height: 32px;
+  }
+  #entry .entry-list li:nth-child(odd) span {
+    display: block;
+  }
+  #entry {
+    padding: 0;
+  }
+  #entry .button {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+    display: none;
+  }
+  #entry .mobile {
+    display: block;
+  }
+
+  #entry .entry-list li:nth-child(odd) mark {
+    display: block;
+  }
+  .top-heading h2 {
+    font-size: 16pt;
+    margin: 0;
+  }
+  #entry .entry-list li {
+    margin-left: 0;
+  }
+  #entry ul {
+    padding: 0;
+  }
+  #entry .item-all .item {
+    margin: 0 auto;
+    width: auto;
+    margin-top: 15pt;
+  }
+  #entry .item .uniq {
+    margin-top: 30pt;
+  }
+  #entry .item-all .item .top-heading {
+    top: -35px;
+    left: 12px;
+  }
+  #entry .item-all .item .item-titel {
+    font-size: 24pt;
+  }
+  #entry .item-all .item h3 {
+    font-size: 18pt;
+  }
+  #entry .item-all .item p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 0;
+    padding: 0 47px;
+    margin-bottom: 0;
+  }
+  #cautions .top-heading h2 {
+    font-size: 14pt;
+    margin: 0;
+  }
+  #cautions .titel {
+    margin-bottom: 50pt;
+  }
+  #cautions .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    padding: 0 20pt;
+    padding-top: 40pt;
+    padding-bottom: 20pt;
+  }
+  #cautions ul {
+    padding: 0;
+  }
+  #cautions .entry-list p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #cautions .entry-list p {
+    margin-bottom: 0;
+  }
+  #cautions .button {
+    margin-top: 26pt;
+    margin-bottom: 30pt;
+  }
+  #cautions .entry-list {
+    margin-bottom: 0;
+    margin-top: 35pt;
+  }
+  #cautions .titel {
+    margin-bottom: 25pt;
+  }
+  #information .box-info {
+    margin: 30pt 0;
+  }
+  #information .box-info {
+    padding-top: 35pt;
+    padding-bottom: 35pt;
+  }
+  #information .box-info p {
+    font-size: 14pt;
+    line-height: 20pt;
+    padding: 0 20pt;
+  }
+  #information .uniq {
+    margin-bottom: 30pt;
+    margin-top: 17px;
+  }
+  footer p {
+    font-size: 14pt;
+    line-height: 20pt;
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #banner {
+    background-image: url("../images/mobiel-banner.png");
+    background-size: cover;
+    background-position: center;
+  }
+  #banner h2 {
+    font-size: 18px;
+    width: auto;
+    line-height: 28pt;
+
+    padding-top: 134px;
+  }
+  #banner .uniq {
+    font-size: 30px;
+    width: auto;
+    line-height: 39pt;
+    padding: 0 25px;
+    padding-bottom: 292px;
+  }
+  #banner .pc-model {
+    display: none;
+  }
+  #banner .m-model {
+    display: block;
+  }
+  #banner picture {
+    bottom: 56px;
+  }
+  /* love part start  */
+  #love h3 {
+    font-size: 16pt;
+    line-height: 25pt;
+    /* love part end  */
+  }
+  #love h2 {
+    font-size: 20pt;
+    line-height: 30pt;
+    text-align: center;
+    width: auto;
+  }
+  #love .item {
+    height: 274px;
+    width: 274px;
+    font-size: 16px;
+  }
+  #love .center {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    width: auto;
+  }
+  .button span {
+    font-size: 18pt;
+  }
+  .titel h2 {
+    font-size: 20pt;
+    line-height: 26pt;
+  }
+  .titel p {
+    margin-top: 5px;
+    font-size: 14pt;
+  }
+  .titel {
+    padding: 28px 0;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #about {
+    margin-top: 30pt;
+  }
+  #about .details p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #about .details {
+    margin: 25px 0;
+  }
+  #about .item picture img {
+    width: 100%;
+  }
+  #about .item {
+    border: 2px solid black;
+  }
+  #about .item {
+    overflow: visible;
+  }
+  #about .item::after {
+    border: 2px solid black;
+  }
+  #about .item .sub-box {
+    width: auto;
+    background-color: #e7458a;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  #about .item .h span {
+    font-size: 16px;
+  }
+  #about .item .h {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  #about .button {
+    margin-top: 20pt;
+    margin-bottom: 30pt;
+  }
+  #entry .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    margin-top: 60pt;
+    padding: 0 25pt;
+    padding-top: 68px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    line-height: 22pt;
+  }
+  #entry .entry-list li::after {
+    width: 100%;
+  }
+  #entry .entry-list li {
+    display: flex;
+  }
+  #entry .entry-list li span {
+    margin-right: 15px;
+    height: 32px;
+  }
+  #entry .entry-list li:nth-child(odd) span {
+    display: block;
+  }
+  #entry {
+    padding: 0;
+  }
+  #entry .button {
+    margin-top: 30pt;
+    margin-bottom: 30pt;
+  }
+
+  #entry .entry-list li:nth-child(odd) mark {
+    display: block;
+  }
+  #entry .item-all .item p {
+    text-align: center;
+  }
+  .top-heading h2 {
+    font-size: 16pt;
+    margin: 0;
+  }
+  #entry .entry-list li {
+    margin-left: 0;
+  }
+  #entry ul {
+    padding: 0;
+  }
+  #entry .item-all .item {
+    margin: 0 auto;
+    width: auto;
+    margin-top: 15pt;
+  }
+  #entry .item .uniq {
+    margin-top: 30pt;
+  }
+  #entry .item-all .item .top-heading {
+    top: -35px;
+    left: 12px;
+  }
+  #entry .item-all .item .item-titel {
+    font-size: 24pt;
+  }
+  #entry .item-all .item h3 {
+    font-size: 18pt;
+  }
+  #entry .item-all .item p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 0;
+    padding: 0 47px;
+    margin-bottom: 0;
+  }
+  #cautions .top-heading h2 {
+    font-size: 14pt;
+    margin: 0;
+  }
+  #cautions .titel {
+    margin-bottom: 50pt;
+  }
+  #cautions .entry-list {
+    font-family: HiraKakuPro;
+    font-size: 16pt;
+    padding: 0 20pt;
+    padding-top: 40pt;
+    padding-bottom: 20pt;
+  }
+  #cautions ul {
+    padding: 0;
+  }
+  #cautions .entry-list p {
+    font-size: 16px;
+    line-height: 26pt;
+  }
+  #cautions .entry-list p {
+    margin-bottom: 0;
+  }
+  #cautions .button {
+    margin-top: 26pt;
+    margin-bottom: 30pt;
+  }
+  #cautions .entry-list {
+    margin-bottom: 0;
+    margin-top: 35pt;
+  }
+  #cautions .titel {
+    margin-bottom: 25pt;
+  }
+  #information .box-info {
+    margin: 30pt 0;
+  }
+  #information .box-info {
+    padding-top: 35pt;
+    padding-bottom: 35pt;
+  }
+  #information .box-info p {
+    font-size: 14pt;
+    line-height: 20pt;
+    padding: 0 20pt;
+  }
+  footer p {
+    font-size: 14pt;
+    line-height: 20pt;
+    margin: 0;
+  }
+  .button {
+    width: 430px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  #banner .pc-model {
+    width: 1200px;
+  }
+}
